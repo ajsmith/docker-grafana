@@ -1,6 +1,5 @@
 FROM rhel7.1
 
-# https://grafanarel.s3.amazonaws.com/builds/grafana-2.0.2-1.x86_64.rpm
 RUN yum install -y --disablerepo=* --enablerepo=rhel-7-server-rpms https://grafanarel.s3.amazonaws.com/builds/grafana-2.1.0-1.x86_64.rpm
 
 VOLUME ["/var/lib/grafana"]
