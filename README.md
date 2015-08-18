@@ -14,17 +14,17 @@ RHEL7 Subscription
 
 To build, run:
 
-    ```
-    $ docker build -t grafana .
-    ```
+```shell
+$ docker build -t grafana .
+```
 
 ## Launching
 
 To start the container, run:
 
-    ```
-    $ docker run -d -p 80:3000/tcp --name grafana grafana
-    ```
+```shell
+$ docker run -d -p 80:3000/tcp --name grafana grafana
+```
 
 ## Networking
 
