@@ -1,5 +1,7 @@
 FROM rhel7.1
 
+MAINTAINER Alex Smith <alex.smith@redhat.com>
+
 RUN yum install -y --disablerepo=* --enablerepo=rhel-7-server-rpms https://grafanarel.s3.amazonaws.com/builds/grafana-2.1.0-1.x86_64.rpm \
     && yum clean all
 
