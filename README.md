@@ -4,7 +4,7 @@ This project provides resources for deploying Grafana in Docker.
 
 ## Image Platform
 
-RHEL 7.1
+RHEL7
 
 ## Image Dependencies
 
@@ -29,3 +29,14 @@ $ docker run -d -p 80:3000/tcp --name grafana grafana
 ## Networking
 
 The Grafana image exposes port 3000.
+
+## Release Notes
+
+### v1.1
+
+- Update base image to RHEL 7.2.
+- Update image to Grafana 2.6.
+
+### v1.0
+
+- Initial release.
