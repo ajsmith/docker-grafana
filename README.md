@@ -32,11 +32,11 @@ The Grafana image exposes port 3000.
 
 ## Release Notes
 
-### v1.1
+### v1.1.0
 
 - Update base image to RHEL 7.2.
 - Update image to Grafana 2.6.
 
-### v1.0
+### v1.0.0
 
 - Initial release.
