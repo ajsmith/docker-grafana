@@ -32,6 +32,10 @@ The Grafana image exposes port 3000.
 
 ## Release Notes
 
+### v1.1.1
+
+- Configure yum to pull updates from 7Server repos instead of 7.2.
+
 ### v1.1.0
 
 - Update base image to RHEL 7.2.
