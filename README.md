@@ -36,9 +36,11 @@ The image exposes port 3000.
 
 The following volumes are declared:
 
-  - /etc/grafana
-  - /var/lib/grafana
-  - /var/log/grafana
+  /etc/grafana
+
+  /var/lib/grafana
+
+  /var/log/grafana
 
 ## Image Configuration
 
