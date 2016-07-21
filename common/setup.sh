@@ -10,7 +10,3 @@ chown root:grafana /var/run/grafana
 chown root:grafana /var/lib/grafana
 chmod 775 /var/run/grafana
 chmod 775 /var/lib/grafana
-
-yum install -y --disablerepo=* --enablerepo=rhel-7-server-rpms \
-    https://grafanarel.s3.amazonaws.com/builds/grafana-3.1.0-1468321182.x86_64.rpm
-yum clean all

@@ -1,9 +1,11 @@
-FROM rhel:7.2
+FROM fedora:24
 
 MAINTAINER Alex Smith <alex.smith@redhat.com>
 
-ADD install.sh /tmp/install.sh
-RUN /bin/bash /tmp/install.sh
+ADD common/setup.sh /tmp/setup.sh
+RUN /bin/bash /tmp/setup.sh
+ADD fedora/install_packages.sh /tmp/install_packages.sh
+RUN /bin/bash /tmp/install_packages.sh
 ADD grafana.ini /etc/grafana/grafana.ini
 
 EXPOSE 3000

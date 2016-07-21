@@ -1,23 +1,30 @@
 # docker-grafana
 
-This project provides resources for installing Grafana in Docker images based
-on Red Hat Enterprise Linux (RHEL).
+This project provides resources for building Grafana in Docker images based on
+Fedora and Red Hat Enterprise Linux (RHEL).
 
-## Base Image
+## Base Images
 
+Fedora 24
 RHEL 7.2
 
 ## Requirements
 
-Building this image requires an active subscription for Red Hat Enterprise
-Linux Server.
+Building the RHEL version of the image requires an active subscription for Red
+Hat Enterprise Linux Server.
 
 ## Building
 
-To build, run:
+To build the Fedora image, run:
 
 ```.shell
-$ docker build -t grafana .
+$ docker build -t grafana:fedora -f fedora/Dockerfile .
+```
+
+To build the RHEL image, run:
+
+```.shell
+$ docker build -t grafana:rhel -f rhel/Dockerfile .
 ```
 
 ## Launching
@@ -70,6 +77,7 @@ For more information about configuring Grafana, refer to the official
 ### v1.2.0
 
 - Update to Grafana 3.1.
+- Add build for Fedora 24.
 - Set Grafana user and group explicitly in image.
 - Configure default data directory to /var/lib/grafana.
 - Configure default plugin directory to /var/lib/grafana/plugins.
