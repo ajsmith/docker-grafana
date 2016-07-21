@@ -6,6 +6,7 @@ Fedora and Red Hat Enterprise Linux.
 ## Base Images
 
 Fedora 24
+
 RHEL 7.2
 
 ## Requirements
