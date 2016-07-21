@@ -19,13 +19,13 @@ Hat Enterprise Linux Server.
 To build the Fedora image, run:
 
 ```.shell
-$ docker build -t grafana:fedora -f fedora/Dockerfile .
+$ docker build -t grafana:fedora -f Dockerfile.fedora .
 ```
 
 To build the RHEL image, run:
 
 ```.shell
-$ docker build -t grafana:rhel -f rhel/Dockerfile .
+$ docker build -t grafana:rhel -f Dockerfile.rhel .
 ```
 
 # Launching
