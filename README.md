@@ -1,7 +1,7 @@
 # docker-grafana
 
 This project provides resources for building Grafana in Docker images based on
-Fedora and Red Hat Enterprise Linux (RHEL).
+Fedora and Red Hat Enterprise Linux.
 
 ## Base Images
 
