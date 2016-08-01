@@ -1,5 +1,5 @@
 #!/bin/bash
 set -e
 
-dnf install -y grafana-3.1.0
+dnf install -y grafana-3.1.1
 dnf clean all
