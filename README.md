@@ -75,13 +75,17 @@ For more information about configuring Grafana, refer to the official
 
 # Release Notes
 
+## v1.2.2
+
+- Upgrade to Grafana 3.1.1.
+
 ## v1.2.1
 
 - Merge configuration updates for Grafana 3.1.
 
 ## v1.2.0
 
-- Update to Grafana 3.1.
+- Upgrade to Grafana 3.1.0.
 - Add build for Fedora 24.
 - Set Grafana user and group explicitly in image.
 - Configure default data directory to /var/lib/grafana.
